@@ -1,12 +1,16 @@
 # Vid.Mp3
 
-## ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣄⣤⣤⣀⣄⣤⣠⣤⣤⡤⠤⠤⢤⣀⣤⡀⠀⠀⣰⠀⠀
+## ⠀⠀⠀⠀⠀hola :3⠀⠀⠀⠀⠀⠀⠀⠀
+
+soy **Vidal** me gusta la musica y lo relacionado con ella como los circuitos y los syths 
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⣄⣤⣤⣀⣄⣤⣠⣤⣤⡤⠤⠤⢤⣀⣤⡀⠀⠀⣰⠀⠀
 ⢰⣶⣶⣶⣶⣶⣶⣶⣿⣿⣿⠿⣿⣿⣿⠿⠧⠴⠛⠛⠒⠛⠉⠉⠋⠉⠉⠉⠉⠙
 ⢸⣿⣿⠿⠏⠉⠁⠀⢰⣿⠁⠀⠉⢿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠻⠇⠀⠀⠀⠈⢿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-soy **Vidal** me gusta la musica y lo relacionado con ella como los circuitos y los syths 
+
+
 
 [**SPOTIFY**](https://open.spotify.com/user/3a9my87o92yuzmvuzd8ccgyr6?si=63f5faf214de4455)
 
