@@ -1,4 +1,29 @@
-## Hi there 👋
+# Vid.Mp3
+
+## klk
+
+soy **Vidal** me gusta la musica y lo relacionado con ella como los circuitos y la digitalizacion de esta 
+
+[**SPOTIFY**](https://open.spotify.com/user/3a9my87o92yuzmvuzd8ccgyr6?si=63f5faf214de4455)
+[**ROBLOX**](https://www.roblox.com/share?code=314f293e7da46346ae20bf1832a2c261&type=Profile&source=ProfileShare&stamp=1769537488594)
+
+
+
+<!--
+**vidMp3/vidmp3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+
 
 <!--
 **vidMp3/vidmp3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
