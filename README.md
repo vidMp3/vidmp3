@@ -1,6 +1,6 @@
 # Vid.Mp3
 
-## ⠀⠀⠀⠀⠀hola :3⠀⠀⠀⠀⠀⠀⠀⠀
+## ⠀⠀⠀⠀⠀hola :3⠀⠀⠀⠀⠀⠀⠀⠀ 
 
 soy **Vidal** me gusta la musica y lo relacionado con ella como los circuitos y los syths 
 ```text
