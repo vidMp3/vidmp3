@@ -1,6 +1,10 @@
 # Vid.Mp3
 
 ## ⠀⠀⠀⠀⠀hola :3⠀⠀⠀⠀⠀⠀⠀⠀ 
+tontoooogit lll
+nknk
+
+vid
 
 soy **Vidal** me gusta la musica y lo relacionado con ella como los circuitos y los syths 
 ```text
@@ -9,8 +13,9 @@ soy **Vidal** me gusta la musica y lo relacionado con ella como los circuitos y 
 ⢰⣶⣶⣶⣶⣶⣶⣶⣿⣿⣿⠿⣿⣿⣿⠿⠧⠴⠛⠛⠒⠛⠉⠉⠋⠉⠉⠉⠉⠙
 ⢸⣿⣿⠿⠏⠉⠁⠀⢰⣿⠁⠀⠉⢿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠻⠇⠀⠀⠀⠈⢿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀git 
 ```
+kk
 
 ⠀⠀⠀⠀⠀⠀
 [**SPOTIFY**](https://open.spotify.com/user/3a9my87o92yuzmvuzd8ccgyr6?si=63f5faf214de4455)
@@ -49,3 +54,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
