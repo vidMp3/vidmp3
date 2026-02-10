@@ -1,10 +1,8 @@
 # Vid.Mp3
 
 ## ⠀⠀⠀⠀⠀hola :3⠀⠀⠀⠀⠀⠀⠀⠀ 
-tontoooogit lll
-nknk
 
-vid
+git 
 
 soy **Vidal** me gusta la musica y lo relacionado con ella como los circuitos y los syths 
 ```text
@@ -15,41 +13,10 @@ soy **Vidal** me gusta la musica y lo relacionado con ella como los circuitos y 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠻⠇⠀⠀⠀⠈⢿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-## Redes ⠀⠀⠀⠀⠀⠀
+## Redes sociales⠀⠀git ⠀⠀⠀⠀
 - [**SPOTIFY**](https://open.spotify.com/user/3a9my87o92yuzmvuzd8ccgyr6?si=63f5faf214de4455)
 - [**EMAIL**](mailto:vrico@centro.edu.mx)
 - [**ROBLOX**](https://www.roblox.com/share?code=314f293e7da46346ae20bf1832a2c261&type=Profile&source=ProfileShare&stamp=1769537488594)
 
 
 
-<!--
-**vidMp3/vidmp3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-
-<!--
-**vidMp3/vidmp3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
- 
