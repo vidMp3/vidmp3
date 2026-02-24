@@ -17,4 +17,3 @@ soy **Vidal** me gusta la musica y lo relacionado con ella como los circuitos y 
 - [**EMAIL**](mailto:vrico@centro.edu.mx)
 - [**ROBLOX**](https://www.roblox.com/share?code=314f293e7da46346ae20bf183)
  
-

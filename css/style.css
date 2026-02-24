@@ -1,0 +1,87 @@
+:root {
+    --font-title: "parabolica", sans-serif;
+    --font-family: "jetsam-collection-basilea", sans-serif;
+    --color-text: rgb(194, 127, 219);
+    --back-color: rgb(0, 0, 0);
+    --color-link: rgb(102, 15, 242);
+
+
+}
+
+
+
+html {
+    font-size: 40px;
+}
+
+
+
+
+body {
+     max-width: 60ch;
+    background-color: var(--back-color);
+    color: var(--color-text);
+    font-family: var(--font-title);
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.4em;
+}
+
+h1 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-size: 1.8em;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-family: var(--font-family);
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+p{
+   
+}
+
+a{
+    display: inline-block;
+    margin: 1em;
+    border: 2px solid;
+    width: 50;
+    background-color: rgb(244, 244, 244);
+    text-decoration: none;
+}
+
+a:visited {
+    
+    color: rgb(139, 120, 93);
+
+}
+
+a {
+    transition: all .5s ease-in-out;
+    color: var(--color-link);
+}
+
+a:hover {
+    color: var(--color-text);
+    opacity: .5;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+body {
+    margin: 0;
+    background-image: url("../img/lomeo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* opcional, se ve cool */
+}
