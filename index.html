@@ -15,6 +15,7 @@
     <title>Vid.Mp3</title>
     <link rel="stylesheet" href="https://use.typekit.net/wfl2mwg.css">
     <link rel="stylesheet" href="https://use.typekit.net/jxj5ecs.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wfl2mwg.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/wfl2mwg.css">
     <link rel="stylesheet" href="https://use.typekit.net/jxj5ecs.css">
@@ -27,46 +28,145 @@
 <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png" />
 <link rel="manifest" href="./img/site.webmanifest" />
 
-<body>
-    <h1>x  x  x  x  x Hola mundo x  x  x  x  x  x x</h1>
-    <h2>vidal:3</h2>
-    <p><b>soy dios</b><br><i>soy dios</i></p>
+<body class="is-loading">
+    <!-- CURSOR BLANCO DURANTE LA CARGA -->
+    <div class="loading-cursor" aria-hidden="true"></div>
+    <!-- PANTALLA DE CARGA -->
+    <div id="loading-screen" class="loading-screen" aria-live="polite" aria-busy="true">
+    </div>
+    <!-- PANTALLA ROJA -->
+    <div id="red-screen" class="red-screen" aria-hidden="true">
+        <img class="plant-corner" src="./img/plant.gif" alt="Plant" />
+    </div>
+    <!-- VIDEO DE FONDO -->
+    <video class="bg-video" autoplay muted loop playsinline>
+        <source src="./img/coso%20wire.mp4" type="video/mp4">
+    </video>
 
-    <p>soy Vidal me gusta la musica y lo relacionado con ella como los circuitos y los syths</p>
-    <pre>
-          
-                    __.-----.._
-                _._-'           `-.
-             .-'    `- - .         \
-            /              '        `.
-           /                          \
-           |                '          |
-           |             .' /          |
-          /;            /   |         /
-          +=,_         :   /         /
-          \  \T| =_    |            /
-          V\  |   ""=W \.          /
-           "|/|       V \_     __)'    
-            \W'    --.,   ` _."
-            |;           /F"
-            /        _'="
-            `^-Y_Y_;-'
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="content-box">
+        <nav class="menu" aria-label="Primary">
+            <a class="menu-link hover-glitch" href="https://www.instagram.com/ezyatiratelapista/" target="_blank" rel="noopener">/instagram</a>
+            <a class="menu-link hover-glitch" href="https://on.soundcloud.com/77feacp6nOnZ2J3wLN" target="_blank" rel="noopener">/music</a>
+            <a class="menu-link hover-glitch" href="https://mail.google.com/mail/?view=cm&fs=1&to=vrico@centro.edu.mx" target="_blank" rel="noopener">/mail</a>
+        </nav>
 
-⠀⠀⠀</pre>
-    <ul>
-        <li>x</li>
-        <li> x</li>
-        <li>x</li>
-        <li> x</li>
-    </ul>
+        <h1 class="titulo type-title hover-glitch">Hola soy Vid</h1>
+        <p class="tagline type-body hover-glitch">music / code / circuits</p>
+        <h2 class="type-subtitle hover-glitch">vidal:3</h2>
+
+        <svg class="audio-mark" viewBox="0 0 360 60" role="img" aria-label="Audio waveform">
+            <path d="M5 30 L35 30 L45 10 L60 50 L78 30 L98 30 L110 18 L125 42 L140 30 L160 30 L175 8 L190 52 L210 30 L230 30 L245 16 L260 44 L275 30 L295 30 L310 12 L325 48 L345 30 L355 30" />
+        </svg>
+
+        <div class="bio type-body">
+            <p>soy Vidal, me gusta la música y todo lo que gira alrededor de ella: los <strong>circuitos</strong>, los <strong>synths</strong>, el ruido, las máquinas y la experimentación sonora.</p>
+            <img class="rat-image" src="./img/rat%20.jpeg" alt="Rat">
+            <p>me interesa <strong>mezclar</strong> código con <strong>sonido</strong>, crear atmósferas, texturas y errores que también se vuelven parte de la música.</p>
+            <p>veo la tecnología como un <strong>instrumento</strong> más, algo que se puede modificar, romper y volver a construir para generar nuevas formas de escuchar y crear.</p>
+        </div>
+
+        <section id="music" class="type-body">
+            <a class="link-video-border" href="https://on.soundcloud.com/77feacp6nOnZ2J3wLN" target="_blank" rel="noopener">
+                <span class="link-border-video" aria-hidden="true">
+                    <video autoplay muted loop playsinline>
+                        <source src="./img/coso%20wire.mp4" type="video/mp4">
+                    </video>
+                </span>
+                <span class="link-text">soundcloud</span>
+            </a>
+        </section>
+
+        <img id="yoyo-trigger" class="yoyo-inline" src="./img/yoyo.png" alt="Yoyo" role="button" tabindex="0">
+        <ul class="type-body">
+            <li>x</li>
+            <li> x</li>
+            <li>x</li>
+            <li> x</li>
+        </ul>    </div>
 
 
-    <a href="https://www.roblox.com" target="_blank">ROBLOX</a>
-    <a href="mailto:vrico@centro.edu.mx">mandame mensaje aki</a>
-    <a href="tel:9994506669">mi numero</a>
 
+    
+    <script>
+        // MOVER EL CURSOR CUSTOM
+        const cursor = document.querySelector('.loading-cursor');
+        window.addEventListener('mousemove', (e) => {
+            if (!cursor) return;
+            cursor.style.left = `${e.clientX}px`;
+            cursor.style.top = `${e.clientY}px`;
+        });
 
+        // OCULTAR LOADER SOLO AL HACER CLICK EN LA CARA DEL MEDIO
+        window.addEventListener('load', () => {
+            const loader = document.getElementById('loading-screen');
+            if (!loader) return;
+            const getTileSize = () => {
+                const size = getComputedStyle(loader).backgroundSize.split(' ')[0];
+                const value = parseFloat(size);
+                return Number.isFinite(value) ? value : 90;
+            };
+            const updateCenterTile = () => {
+                const rect = loader.getBoundingClientRect();
+                const size = getTileSize();
+                const cols = Math.max(1, Math.floor(rect.width / size));
+                const rows = Math.max(1, Math.floor(rect.height / size));
+                const centerCol = Math.floor(cols / 2);
+                const centerRow = Math.floor(rows / 2);
+                loader.style.setProperty('--tile-size', `${size}px`);
+                loader.style.setProperty('--center-x', `${centerCol * size}px`);
+                loader.style.setProperty('--center-y', `${centerRow * size}px`);
+            };
+            const isCenterTile = (e) => {
+                const rect = loader.getBoundingClientRect();
+                const size = getTileSize();
+                const cols = Math.max(1, Math.floor(rect.width / size));
+                const rows = Math.max(1, Math.floor(rect.height / size));
+                const col = Math.min(cols - 1, Math.max(0, Math.floor((e.clientX - rect.left) / size)));
+                const row = Math.min(rows - 1, Math.max(0, Math.floor((e.clientY - rect.top) / size)));
+                const centerCol = Math.floor(cols / 2);
+                const centerRow = Math.floor(rows / 2);
+                return col === centerCol && row === centerRow;
+            };
+            updateCenterTile();
+            window.addEventListener('resize', updateCenterTile);
+            loader.addEventListener('click', (e) => {
+                if (!isCenterTile(e)) return;
+                loader.classList.add('is-hidden');
+                document.body.classList.remove('is-loading');
+            });
+        });
 
+        // VOLVER TODO ROJO AL HACER CLICK EN LA CARA YOYO
+        const yoyoFace = document.getElementById('yoyo-trigger');
+        if (yoyoFace) {
+            const activateRed = () => {
+                const redScreen = document.getElementById('red-screen');
+                if (redScreen) {
+                    redScreen.classList.add('is-visible');
+                    redScreen.setAttribute('aria-hidden', 'false');
+                }
+            };
+            yoyoFace.addEventListener('click', activateRed);
+            yoyoFace.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    activateRed();
+                }
+            });
+        }
+
+        // CERRAR PANTALLA ROJA AL HACER CLICK (REGRESO A LA BLANCA)
+        const redScreen = document.getElementById('red-screen');
+        if (redScreen) {
+            const deactivateRed = () => {
+                redScreen.classList.remove('is-visible');
+                redScreen.setAttribute('aria-hidden', 'true');
+            };
+            redScreen.addEventListener('click', deactivateRed);
+        }
+
+    </script>
 </body>
 
 </html>
