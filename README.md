@@ -1,19 +1,17 @@
 # Vid.Mp3
 
-## ⠀⠀⠀⠀⠀hola :3⠀⠀⠀⠀⠀⠀⠀⠀ 
+## Descripción Conceptual
+Vid.Mp3 es una landing personal tipo link hub que reúne mi ecosistema digital desde una identidad sonora: música experimental, circuitos y código como instrumentos creativos.
 
-git 
+## Captura del Hero
+Agrega aquí una imagen del Hero cuando tengas el screenshot listo:
+`img/hero.png`
 
-soy **Vidal** me gusta la musica y lo relacionado con ella como los circuitos y los syths :3
-```text
-⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣄⣤⣤⣀⣄⣤⣠⣤⣤⡤⠤⠤⢤⣀⣤⡀⠀⠀⣰⠀⠀
-⢰⣶⣶⣶⣶⣶⣶⣶⣿⣿⣿⠿⣿⣿⣿⠿⠧⠴⠛⠛⠒⠛⠉⠉⠋⠉⠉⠉⠉⠙
-⢸⣿⣿⠿⠏⠉⠁⠀⢰⣿⠁⠀⠉⢿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠻⠇⠀⠀⠀⠈⢿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+## Deploy
+Enlace al deploy (GitHub Pages):
+`https://<tu-usuario>.github.io/<tu-repo>/`
 
-- [**SPOTIFY**](https://open.spotify.com/user/3a9my87o92yuzmvuzd8ccgyr6?si=63f5faf214de4455)
-- [**EMAIL**](mailto:vrico@centro.edu.mx)
-- [**ROBLOX**](https://www.roblox.com/share?code=314f293e7da46346ae20bf183)
- 
+## Enlaces
+- [Instagram](https://www.instagram.com/ezyatiratelapista/)
+- [SoundCloud](https://on.soundcloud.com/77feacp6nOnZ2J3wLN)
+- [Email](mailto:vrico@centro.edu.mx)

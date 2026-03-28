@@ -1,93 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-
-
 <head>
-
-
-
-
-
     <meta charset="UTF-8">
+    <meta name="description" content="Vid.Mp3: música, código y circuitos. Hub personal con enlaces, contacto y una hero de identidad visual.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vid.Mp3</title>
     <link rel="stylesheet" href="https://use.typekit.net/wfl2mwg.css">
     <link rel="stylesheet" href="https://use.typekit.net/jxj5ecs.css">
-    <link rel="stylesheet" href="https://use.typekit.net/wfl2mwg.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://use.typekit.net/wfl2mwg.css">
-    <link rel="stylesheet" href="https://use.typekit.net/jxj5ecs.css">
-
-
+    <link rel="icon" type="image/png" href="./img/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="manifest" href="./img/site.webmanifest">
 </head>
-<link rel="icon" type="image/png" href="./img/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
-<link rel="shortcut icon" href="./img/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png" />
-<link rel="manifest" href="./img/site.webmanifest" />
-
 <body class="is-loading">
     <!-- CURSOR BLANCO DURANTE LA CARGA -->
     <div class="loading-cursor" aria-hidden="true"></div>
     <!-- PANTALLA DE CARGA -->
-    <div id="loading-screen" class="loading-screen" aria-live="polite" aria-busy="true">
-    </div>
+    <div id="loading-screen" class="loading-screen" aria-live="polite" aria-busy="true"></div>
     <!-- PANTALLA ROJA -->
     <div id="red-screen" class="red-screen" aria-hidden="true">
-        <img class="plant-corner" src="./img/plant.gif" alt="Plant" />
+        <img class="plant-corner" src="./img/plant.gif" alt="Plant">
     </div>
-    <!-- VIDEO DE FONDO -->
-    <video class="bg-video" autoplay muted loop playsinline>
-        <source src="./img/coso%20wire.mp4" type="video/mp4">
-    </video>
+    <!-- MARCO CON SECUENCIA PNG -->
+    <div class="png-frame" aria-hidden="true">
+        <img class="png-frame-img" alt="">
+    </div>
 
     <!-- CONTENIDO PRINCIPAL -->
-    <div class="content-box">
-        <nav class="menu" aria-label="Primary">
-            <a class="menu-link hover-glitch" href="https://www.instagram.com/ezyatiratelapista/" target="_blank" rel="noopener">/instagram</a>
-            <a class="menu-link hover-glitch" href="https://on.soundcloud.com/77feacp6nOnZ2J3wLN" target="_blank" rel="noopener">/music</a>
-            <a class="menu-link hover-glitch" href="https://mail.google.com/mail/?view=cm&fs=1&to=vrico@centro.edu.mx" target="_blank" rel="noopener">/mail</a>
-        </nav>
+    <main class="content-box">
+        <header class="hero-header">
+            <nav class="menu" aria-label="Primary">
+                <a class="menu-link hover-glitch" href="https://www.instagram.com/ezyatiratelapista/" target="_blank" rel="noopener">/instagram</a>
+                <a class="menu-link hover-glitch" href="https://on.soundcloud.com/77feacp6nOnZ2J3wLN" target="_blank" rel="noopener">/music</a>
+                <a class="menu-link hover-glitch" href="https://mail.google.com/mail/?view=cm&fs=1&to=vrico@centro.edu.mx" target="_blank" rel="noopener">/mail</a>
+            </nav>
+        </header>
 
-        <h1 class="titulo type-title hover-glitch">Hola soy Vid</h1>
-        <p class="tagline type-body hover-glitch">music / code / circuits</p>
-        <h2 class="type-subtitle hover-glitch">vidal:3</h2>
+        <section class="hero" aria-label="Hero">
+            <h1 class="titulo type-title hover-glitch">Vidal Rico Castillo</h1>
+            <p class="tagline type-body hover-glitch">music / code / circuits</p>
+        </section>
 
         <svg class="audio-mark" viewBox="0 0 360 60" role="img" aria-label="Audio waveform">
             <path d="M5 30 L35 30 L45 10 L60 50 L78 30 L98 30 L110 18 L125 42 L140 30 L160 30 L175 8 L190 52 L210 30 L230 30 L245 16 L260 44 L275 30 L295 30 L310 12 L325 48 L345 30 L355 30" />
         </svg>
 
-        <div class="bio type-body">
-            <p>soy Vidal, me gusta la música y todo lo que gira alrededor de ella: los <strong>circuitos</strong>, los <strong>synths</strong>, el ruido, las máquinas y la experimentación sonora.</p>
-            <img class="rat-image" src="./img/rat%20.jpeg" alt="Rat">
-            <p>me interesa <strong>mezclar</strong> código con <strong>sonido</strong>, crear atmósferas, texturas y errores que también se vuelven parte de la música.</p>
-            <p>veo la tecnología como un <strong>instrumento</strong> más, algo que se puede modificar, romper y volver a construir para generar nuevas formas de escuchar y crear.</p>
-        </div>
+        <article class="bio type-body">
+            <p>soy Vidal: <strong>música</strong>, <strong>circuitos</strong>, <strong>synths</strong>, ruido y <strong>experimentación</strong> sonora.</p>
+            <img class="rat-image" src="./img/yoyo.png" alt="Yoyo">
+            <p>mezclo <strong>código</strong> con <strong>sonido</strong> para crear <strong>atmósferas</strong>, texturas y errores vivos.</p>
+            <p>la <strong>tecnología</strong> es un instrumento: se modifica, se rompe y se vuelve a <strong>construir</strong>.</p>
+        </article>
 
-        <section id="music" class="type-body">
+        <section id="music" class="type-body" aria-label="Música">
             <a class="link-video-border" href="https://on.soundcloud.com/77feacp6nOnZ2J3wLN" target="_blank" rel="noopener">
                 <span class="link-border-video" aria-hidden="true">
                     <video autoplay muted loop playsinline>
                         <source src="./img/coso%20wire.mp4" type="video/mp4">
                     </video>
                 </span>
-                <span class="link-text">soundcloud</span>
+                <span class="link-text" aria-hidden="true"></span>
             </a>
         </section>
+    </main>
 
-        <img id="yoyo-trigger" class="yoyo-inline" src="./img/yoyo.png" alt="Yoyo" role="button" tabindex="0">
-        <ul class="type-body">
-            <li>x</li>
-            <li> x</li>
-            <li>x</li>
-            <li> x</li>
-        </ul>    </div>
+    <footer class="sr-only">
+        <a href="https://open.spotify.com/user/3a9my87o92yuzmvuzd8ccgyr6?si=63f5faf214de4455" target="_blank" rel="noopener">Spotify</a>
+        <a href="https://wa.me/5210000000000">WhatsApp</a>
+        <a href="tel:+520000000000">Teléfono</a>
+    </footer>
 
-
-
-    
     <script>
         // MOVER EL CURSOR CUSTOM
         const cursor = document.querySelector('.loading-cursor');
@@ -137,25 +121,6 @@
             });
         });
 
-        // VOLVER TODO ROJO AL HACER CLICK EN LA CARA YOYO
-        const yoyoFace = document.getElementById('yoyo-trigger');
-        if (yoyoFace) {
-            const activateRed = () => {
-                const redScreen = document.getElementById('red-screen');
-                if (redScreen) {
-                    redScreen.classList.add('is-visible');
-                    redScreen.setAttribute('aria-hidden', 'false');
-                }
-            };
-            yoyoFace.addEventListener('click', activateRed);
-            yoyoFace.addEventListener('keydown', (e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault();
-                    activateRed();
-                }
-            });
-        }
-
         // CERRAR PANTALLA ROJA AL HACER CLICK (REGRESO A LA BLANCA)
         const redScreen = document.getElementById('red-screen');
         if (redScreen) {
@@ -166,7 +131,57 @@
             redScreen.addEventListener('click', deactivateRed);
         }
 
+        // SECUENCIA PNG PARA MARCO (12 FPS)
+        const startPngFrame = () => {
+            const frameEl = document.querySelector('.png-frame-img');
+            if (!frameEl) return;
+
+            const basePath = './img/secuencia png/animacion vidal dibujo/';
+            const totalFrames = 120;
+            const fps = 12;
+            const frameDuration = 1000 / fps;
+            const frames = Array.from({ length: totalFrames }, (_, i) => {
+                const id = String(i).padStart(5, '0');
+                return encodeURI(`${basePath}animacion vidal dibujo_${id}.png`);
+            });
+
+            const images = frames.map((src) => {
+                const img = new Image();
+                img.src = src;
+                return img;
+            });
+
+            const waitFor = (img) =>
+                img.decode ? img.decode().catch(() => {}) : new Promise((resolve) => {
+                    if (img.complete) {
+                        resolve();
+                        return;
+                    }
+                    img.onload = resolve;
+                    img.onerror = resolve;
+                });
+
+            Promise.all(images.map(waitFor)).then(() => {
+                let frame = 0;
+                let last = performance.now();
+
+                const tick = (now) => {
+                    const delta = now - last;
+                    if (delta >= frameDuration) {
+                        frameEl.src = images[frame].src;
+                        frame = (frame + 1) % totalFrames;
+                        last = now;
+                    }
+                    requestAnimationFrame(tick);
+                };
+
+                // Set first frame immediately
+                frameEl.src = images[0].src;
+                requestAnimationFrame(tick);
+            });
+        };
+
+        startPngFrame();
     </script>
 </body>
-
 </html>
