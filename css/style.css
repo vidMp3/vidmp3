@@ -705,7 +705,7 @@ a {
     .menu-link {
         letter-spacing: 0.08em;
         padding: 20px 12px;
-        font-size: calc(1.1em + 30px);
+        font-size: calc(1.1em + 10px);
     }
 
     .bio {
