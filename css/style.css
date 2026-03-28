@@ -694,7 +694,7 @@ a {
         align-items: center;
         justify-content: center;
         flex-wrap: nowrap;
-        gap: clamp(18px, 6vw, 28px);
+        gap: clamp(10px, 4vw, 18px);
     }
 
     .menu .menu-link {
@@ -704,8 +704,8 @@ a {
 
     .menu-link {
         letter-spacing: 0.08em;
-        padding: 20px 12px;
-        font-size: calc(1.1em + 10px);
+        padding: 12px 6px;
+        font-size: calc(1em + 4px);
     }
 
     .bio {
