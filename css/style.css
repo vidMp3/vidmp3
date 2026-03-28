@@ -623,7 +623,7 @@ body.is-loading .loading-cursor {
 body {
     max-width: 100%;
     font-size: 1em;
-    padding: 20px 14px;
+    padding: 20px 16px;
 }
 
 pre {
@@ -704,8 +704,8 @@ a {
 
     .menu-link {
         letter-spacing: 0.08em;
-        padding: 8px 4px;
-        font-size: 0.8em;
+        padding: 10px 6px;
+        font-size: 0.95em;
     }
 
     .bio {
@@ -727,7 +727,7 @@ a {
 
 @media (max-width: 420px) {
     body {
-        padding: 18px 12px;
+        padding: 18px 16px;
     }
 
     .tagline {
