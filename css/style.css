@@ -686,13 +686,17 @@ a {
     }
 
     .menu {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        gap: 12px;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: clamp(10px, 3.5vw, 18px);
     }
 
     .menu-link {
-        letter-spacing: 0.18em;
+        letter-spacing: 0.08em;
+        padding: 8px 4px;
+        font-size: 0.8em;
     }
 
     .bio {
