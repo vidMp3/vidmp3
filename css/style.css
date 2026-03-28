@@ -685,6 +685,10 @@ a {
         gap: clamp(28px, 10vw, 72px);
     }
 
+    .hero-header {
+        padding-top: calc(clamp(24px, 10vw, 56px) + 50px);
+    }
+
     .menu {
         flex-direction: row;
         align-items: center;
