@@ -693,6 +693,11 @@ a {
         gap: clamp(10px, 3.5vw, 18px);
     }
 
+    .menu .menu-link {
+        display: inline-flex;
+        white-space: nowrap;
+    }
+
     .menu-link {
         letter-spacing: 0.08em;
         padding: 8px 4px;
